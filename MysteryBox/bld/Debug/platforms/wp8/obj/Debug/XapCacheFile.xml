@@ -1,27 +1,27 @@
-﻿<xapCache source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/19/2014 12:58:20 AM">
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\obj\Debug\io.cordova.MysteryBox.dll" archivePath="io.cordova.MysteryBox.dll" lastWriteTime="10/19/2014 12:58:19 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="10/19/2014 12:58:15 AM" />
+﻿<xapCache source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/19/2014 5:58:43 AM">
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\obj\Debug\io.cordova.MysteryBox.dll" archivePath="io.cordova.MysteryBox.dll" lastWriteTime="10/19/2014 5:58:42 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="10/19/2014 5:58:39 AM" />
   <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="10/18/2014 3:47:18 PM" />
   <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="10/18/2014 3:47:18 PM" />
   <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Images\appbar.feature.video.rest.png" archivePath="Images\appbar.feature.video.rest.png" lastWriteTime="10/18/2014 3:47:18 PM" />
   <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Images\appbar.next.rest.png" archivePath="Images\appbar.next.rest.png" lastWriteTime="10/18/2014 3:47:18 PM" />
   <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="10/18/2014 3:47:18 PM" />
   <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="10/18/2014 3:47:18 PM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="10/19/2014 12:58:16 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\plugins\org.apache.cordova.device\www\device.js" archivePath="www\plugins\org.apache.cordova.device\www\device.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js" archivePath="www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\Project_Readme.html" archivePath="www\Project_Readme.html" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\app.js" archivePath="www\scripts\app.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\index.js" archivePath="www\scripts\index.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\jquery-1.11.1.min.js" archivePath="www\scripts\jquery-1.11.1.min.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\MobileServices.Web-1.2.2.min.js" archivePath="www\scripts\MobileServices.Web-1.2.2.min.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\platformOverrides.js" archivePath="www\scripts\platformOverrides.js" lastWriteTime="10/19/2014 12:58:15 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/19/2014 12:58:20 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="10/19/2014 12:58:16 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="10/19/2014 12:58:16 AM" />
-  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/19/2014 12:58:20 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\plugins\org.apache.cordova.device\www\device.js" archivePath="www\plugins\org.apache.cordova.device\www\device.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js" archivePath="www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\Project_Readme.html" archivePath="www\Project_Readme.html" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\app.js" archivePath="www\scripts\app.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\index.js" archivePath="www\scripts\index.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\jquery-1.11.1.min.js" archivePath="www\scripts\jquery-1.11.1.min.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\MobileServices.Web-1.2.2.min.js" archivePath="www\scripts\MobileServices.Web-1.2.2.min.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\www\scripts\platformOverrides.js" archivePath="www\scripts\platformOverrides.js" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/19/2014 5:58:42 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="10/19/2014 5:58:39 AM" />
+  <file source="C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/19/2014 5:58:43 AM" />
 </xapCache>

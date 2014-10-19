@@ -14,6 +14,8 @@
 
     <button id="read_btn">Random Note</button>
 
+    <button id="read_framed_btn">Read Framed Note</button>
+
     <div id="logged-in">
         You are logged in as <span id="login-name"></span>.
         <button id="log-out">Log out</button>
@@ -49,17 +51,19 @@
             $('#submit_btn').click(
                 function () {
                     var text = $('#contentField').val();
-                    if (client.currentUser)
+                    if (client.currentUser) {
                         alert("Submited note: " + text);
+                        alert(client.currentUser.userId);
+                        var item = {
+                            content: text,
+                            author_id: client.currentUser.userId,
+                            up_votes: 0,
+                            down_votes: 0
+                        };
+                        client.getTable("Note").insert(item);
+                    }
                     else
                         alert("You must be logged in to submit a note");
-                    var item = {
-                        content: text,
-                        author_id: client.currentUser.userId,
-                        up_votes: 0,
-                        down_votes: 0
-                    };
-                    client.getTable("Note").insert(item);
                 }
             );
             $('#read_btn').click(
@@ -67,7 +71,7 @@
                     client.getTable("Note").take(0).includeTotalCount().read().then(
                         function (results) {
                             var total = results.totalCount;
-                            var random = Math.floor(Math.random() * total);
+                            var random = Math.floor(Math.random() * total) + 1;
                             client.getTable("Note").skip(random).take(1).read().then(
                                 function (results) {
                                     random_note.id = results[0].id;
@@ -87,9 +91,11 @@
             //Hide buttons in the beginning
             $('#upvote_btn').hide();
             $('#downvote_btn').hide();
+            $('#close_btn').hide();
             $('#upvote_btn').click(
                 function () {
                     alert("upvoted");
+                    alert(random_note.author_id);
                     random_note.up_votes += 1;
                     alert(random_note.up_votes);
                     client.getTable('Note').update(random_note);
@@ -109,6 +115,30 @@
                     $('#downvote_btn').hide();
                 }
             );
+            $('#read_framed_btn').click(
+                function () {
+                    client.getTable("Framed").take(0).includeTotalCount().read().then(
+                        function (results) {
+                            var total = results.totalCount;
+                            client.getTable("Framed").take(total).read().then(
+                                function (results) {
+                                    var str = "";
+                                    for (var i = 0; i < results.length; i++)
+                                        str += results[i].content;
+                                    $('#note_display').html(str);
+                                }
+                                );
+                        }
+                        )
+                    $('#close_btn').show();
+                }
+            );
+            $('#close_btn').click(
+                function () {
+                    $('note_display').html("");
+                    $('#close_btn').hide();
+                }
+            )
         });
     </script>
     <script src="scripts/app.js"></script>
