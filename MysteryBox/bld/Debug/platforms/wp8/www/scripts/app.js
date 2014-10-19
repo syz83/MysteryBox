@@ -32,7 +32,7 @@
                     
                 }
             );
-
+            // How to make this code wait until top block finishes?
             var userTable = client.getTable('User');
             userTable
                 .where({ userId: client.currentUser.userId })

@@ -9,7 +9,8 @@
 </head>
 <body>
     <h1>Welcome to Mystery Box!</h1>
-    Note: <input type="text" id="contentField" name="steven" />
+    Note: <input type="text" id="contentField" size="50" />
+    <br />
     <button id="submit_btn">Submit</button>
 
     <button id="read_btn">Random Note</button>
@@ -94,15 +95,12 @@
             $('#close_btn').hide();
             $('#upvote_btn').click(
                 function () {
-                    alert("upvoted");
-                    alert(random_note.author_id);
                     random_note.up_votes += 1;
-                    alert(random_note.up_votes);
+                    alert("Total upvotes: " + random_note.up_votes);
                     client.getTable('Note').update(random_note);
                     $('#note_display').html("");
                     $('#upvote_btn').hide();
                     $('#downvote_btn').hide();
-                    alert("confirmed");
                 }
             );
             $('#downvote_btn').click(
