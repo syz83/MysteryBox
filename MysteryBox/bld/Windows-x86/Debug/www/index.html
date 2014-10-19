@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MysteryBox</title>
+
+    <!-- MysteryBox references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Welcome to Mystery Box!</h1>
+    Note: <input type="text" id="contentField" name="steven" />
+    <button id="submit_btn">Submit</button>
+
+    <button id="read_btn">Random Note</button>
+
+    <div id="logged-in">
+        You are logged in as <span id="login-name"></span>.
+        <button id="log-out">Log out</button>
+    </div>
+    <div id="logged-out">
+        You are not logged in.
+        <button>Log in</button>
+    </div>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/MobileServices.Web-1.2.2.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $('#submit_btn').click(
+                function () {
+                    var text = $('#contentField').val();
+                    alert("Submited note: " + text);
+                    var item = {
+                        content: text,
+                        author_id: 1,
+                        up_votes: 0,
+                        down_votes: 0
+                    };
+                    client.getTable("Note").insert(item);
+                }
+            );
+            $('#read_btn').click(
+                function () {
+                    client.getTable("Note").take(0).includeTotalCount().read().then(
+                        function(results){
+                            var total = results.totalCount;
+                            var random = Math.floor(Math.random() * total);
+                            client.getTable("Note").skip(random).take(1).read().then(
+                                function (results) {
+                                    var random_note = results[0].content;
+                                    alert(random_note);
+                                }
+                            );
+                        }    
+                    );                        
+                }
+            )
+
+        });
+    </script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

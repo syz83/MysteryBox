@@ -1,0 +1,1 @@
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\AppPackages\CordovaApp_1.0.0.0_AnyCPU_Debug_Test\CordovaApp_1.0.0.0_AnyCPU_Debug.appx

@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MysteryBox</title>
+
+    <!-- MysteryBox references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Welcome to Mystery Box!</h1>
+    Note: <input type="text" id="contentField" name="steven" />
+    <button id="submit_btn">Submit</button>
+
+    <button id="read_btn">Random Note</button>
+
+    <div id="logged-in">
+        You are logged in as <span id="login-name"></span>.
+        <button id="log-out">Log out</button>
+    </div>
+    <div id="logged-out">
+        You are not logged in.
+        <button>Log in</button>
+    </div>
+
+    <div id="note_display" class="displaying">
+    </div>
+    
+    <button id="upvote_btn">Upvote</button>
+    <button id="downvote_btn">Downvote</button>
+          
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/MobileServices.Web-1.2.2.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+    
+    <script>
+        var random_note = {
+            id : "", 
+            content: "",
+            author_id: "",
+            up_votes: 0,
+            down_votes: 0
+        };
+
+        $(document).ready(function () {
+            $('#submit_btn').click(
+                function () {
+                    var text = $('#contentField').val();
+                    if (client.currentUser)
+                        alert("Submited note: " + text);
+                    else
+                        alert("You must be logged in to submit a note");
+                    var item = {
+                        content: text,
+                        author_id: client.currentUser.userId,
+                        up_votes: 0,
+                        down_votes: 0
+                    };
+                    client.getTable("Note").insert(item);
+                }
+            );
+            $('#read_btn').click(
+                function () {
+                    client.getTable("Note").take(0).includeTotalCount().read().then(
+                        function (results) {
+                            var total = results.totalCount;
+                            var random = Math.floor(Math.random() * total);
+                            client.getTable("Note").skip(random).take(1).read().then(
+                                function (results) {
+                                    random_note.id = results[0].id;
+                                    random_note.content = results[0].content;
+                                    random_note.author_id = results[0].author_id;
+                                    random_note.up_votes = results[0].up_votes;
+                                    random_note.down_votes = results[0].down_votes;
+                                    $('#note_display').html(random_note.content);
+                                    $('#upvote_btn').show();
+                                    $('#downvote_btn').show();
+                                }
+                            );
+                        }
+                    );
+                }
+            );
+            //Hide buttons in the beginning
+            $('#upvote_btn').hide();
+            $('#downvote_btn').hide();
+            $('#upvote_btn').click(
+                function () {
+                    alert("upvoted");
+                    random_note.up_votes += 1;
+                    alert(random_note.up_votes);
+                    client.getTable('Note').update(random_note);
+                    $('#note_display').html("");
+                    $('#upvote_btn').hide();
+                    $('#downvote_btn').hide();
+                    alert("confirmed");
+                }
+            );
+            $('#downvote_btn').click(
+                function () {
+                    random_note.down_votes += 1;
+                    alert("Total Downvotes = " + random_note.down_votes)
+                    client.getTable('Note').update(random_note);
+                    $('#note_display').html("");
+                    $('#upvote_btn').hide();
+                    $('#downvote_btn').hide();
+                }
+            );
+        });
+    </script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bin\Debug\resources.pri
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bin\Debug\AppxManifest.xml
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bin\Debug\CordovaApp.build.appxrecipe
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\priconfig.xml
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\priconfig.xml.intermediate
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\layout.resfiles
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\layout.resfiles.intermediate
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\resources.resfiles
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\resources.resfiles.intermediate
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\pri.resfiles
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\pri.resfiles.intermediate
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\qualifiers.txt
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\ProjectArchitectures.txt
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\package.map.txt
+C:\Users\Admin\Documents\MysteryBox\MysteryBox\bld\Debug\platforms\windows8\bld\Debug\_pkginfo.txt
